@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+<div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <h1>Quotes Here, Quotes There, Quotes Everywhere!</h1>
+        </div>
+    </header>
+
+    <div class="row text-center index">
+        <% quotes.forEach(function(quote){ %>
+        <blockquote>
+            <p><%= quote.quoteText %><br /><small><%= quote.quoteAuthor %></small></p>
+        </blockquote>
+        <% }); %>
+    </div>
+
+    <% include ../partials/footer %>
