@@ -9,6 +9,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+
 // import the route handling module
 require("./routes/quoteRoutes")(app);
 
