@@ -12,7 +12,7 @@
 	
 ### Objectives
 
-- Understand what a RESTfull API is
+- Understand what a RESTful API is
 - CRUD actions with MongoDB
 - Create your own RESTfull API with ExpressJS and a database
 - Host own API on Heroku
