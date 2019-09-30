@@ -1,20 +1,18 @@
 # becode-quotes-api
 
-## Quotes API with ExpressJS and MongoDB
+## Assignment: Quotes API with ExpressJS and MongoDB
 
 - Repository: `becode-quotes-api`
 - Duration: 5 days
 - Delivery style:
 	- API hosted on heroku + database
-- Team mode: yes
-	- backend: 2 developers
-
+- Team mode: no
 	
 ### Objectives
 
 - Understand what a RESTful API is
 - CRUD actions with MongoDB
-- Create your own RESTfull API with ExpressJS and a database
+- Create your own RESTful API with ExpressJS and a database
 - Host own API on Heroku
 
 ### What is CRUD
@@ -23,7 +21,7 @@
 
 #### REST
 
-With expressJS we can develop our own API on a NodeJS server. When we develop an API we do so according to the [RESTful](https://restfulapi.net/) principle.
+With expressJS we can develop our own API on a NodeJS server. When we develop an API we do so according to the [RESTfu](https://restfulapi.net/) principle.
 
 One particular resource from our database, e.g. *users*, will be represented by a URI.
 
